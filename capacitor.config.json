@@ -1,0 +1,12 @@
+{
+  "appId": "com.ashen.hollowcrown",
+  "appName": "ASHEN: THE HOLLOW CROWN",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

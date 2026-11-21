@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "ashen-the-hollow-crown",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.10",
+    "@capacitor/core": "^7.6.10",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.10",
+    "vite": "^7.3.8",
+    "vitest": "^4.0.0"
+  }
+}

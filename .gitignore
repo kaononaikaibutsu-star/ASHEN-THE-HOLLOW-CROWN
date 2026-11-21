@@ -1,0 +1,16 @@
+# Dependencies & build output
+node_modules/
+dist/
+build/
+.vite/
+
+# Environment & local overrides
+.env
+.env.local
+*.log
+
+# OS & editor clutter
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
