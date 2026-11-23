@@ -1,16 +1,13 @@
-# Dependencies & build output
+@"
 node_modules/
 dist/
 build/
+out/
 .vite/
-
-# Environment & local overrides
-.env
-.env.local
+android/app/build/
+android/.gradle/
 *.log
-
-# OS & editor clutter
+.env
 .DS_Store
 Thumbs.db
-.vscode/*
-!.vscode/extensions.json
+"@ | Out-File -Encoding utf8 .gitignore
